@@ -22,7 +22,7 @@
     </head>
     <body>
 
-    @include('header')
+    @include('navbar')
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">

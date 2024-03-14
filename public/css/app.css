@@ -9547,15 +9547,15 @@ h6,
     z-index: 1;
 }
 
-/*.overlay-top::before {
+.overlay-top::before {
     top: -1px;
     background: url(../img/overlay-top.png);
-}*/
+}
 
-/*.overlay-bottom::after {
+.overlay-bottom::after {
     bottom: -1px;
     background: url(../img/overlay-bottom.png);
-}*/
+}
 
 .carousel-caption {
     top: 0;
@@ -9653,6 +9653,7 @@ h6,
     background-size: cover;
 }*/
 
+.page-header,
 .footer {
     background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/lunares.jpg);
     background-position: top;
