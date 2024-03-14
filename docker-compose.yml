@@ -1,0 +1,38 @@
+services:
+    php:
+        build:
+            context: .
+            target: frankenphp_base
+        restart: unless-stopped
+        depends_on:
+            - db
+        volumes:
+            - caddy_data:/data
+            - caddy_config:/config
+            - ./:/app
+        ports:
+            # HTTPS
+            - target: 443
+              published: ${HTTPS_PORT:-443}
+              protocol: tcp
+            # HTTP/3
+            - target: 443
+              published: ${HTTP3_PORT:-443}
+              protocol: udp
+    db:
+        image: mariadb
+        restart: always
+        ports:
+            - "3307:3306"
+        environment:
+            MYSQL_DATABASE: joseDb
+            MYSQL_USER: joseDb_user
+            MYSQL_PASSWORD: joseDb_pass
+            MARIADB_RANDOM_ROOT_PASSWORD: true
+        volumes:
+            - database:/var/lib/mysql
+volumes:
+    caddy_data:
+    caddy_config:
+    database:
+
