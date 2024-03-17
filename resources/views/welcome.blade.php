@@ -79,7 +79,7 @@
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <a href="bioJoseAnillo.pdf" download="Biografia" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Biografia</a>
                 </div>
             </div>
         </div>
