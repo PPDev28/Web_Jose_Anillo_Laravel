@@ -6017,6 +6017,7 @@ a.close.disabled {
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
+    background: linear-gradient(rgba(217, 168, 138, 0.3), rgba(243, 228, 194, 0.3));
     color: #fff;
     text-align: center;
 }
@@ -9562,7 +9563,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(51, 33, 29, 0.7);
+    background: linear-gradient(rgba(217, 168, 138, 0.3), rgba(243, 228, 194, 0.3));
     z-index: 1;
 }
 
@@ -9653,9 +9654,15 @@ h6,
     background-size: cover;
 }*/
 
-.page-header,
 .footer {
-    background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/lunares.jpg);
+    background-color: rgb(72, 49, 27);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header {
+    background: linear-gradient(rgba(217, 168, 138, 0.3), rgba(243, 228, 194, 0.3)), url(../img/jose1.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

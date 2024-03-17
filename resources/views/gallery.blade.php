@@ -24,7 +24,7 @@
 <body>
     @include('navbar')
 
-    @include('header', ['title' => 'Fotografías', 'page' => 'Historia', 'info' => 'biografia'])
+    @include('header', ['title' => 'Fotografías'])
 
     <!-- About Start -->
     <div class="container-fluid py-5">

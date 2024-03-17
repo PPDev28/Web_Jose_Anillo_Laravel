@@ -4,10 +4,10 @@
         <div class="d-flex justify-content-between">
             <div class="text-left">
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com/joseanillosalazar/?locale=es_ES" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://open.spotify.com/intl-es/artist/14jkAPjXRzlL89CjZedmhh"><i class="fa-brands fa-spotify"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.instagram.com/joseanillo.music/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://twitter.com/AnilloOficial" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
             <div class="text-right">

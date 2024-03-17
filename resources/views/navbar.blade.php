@@ -9,19 +9,12 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4">
-                <a href="#" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about.index') }}" class="nav-item nav-link">About</a>
-                <a href="#" class="nav-item nav-link">Service</a>
-                <a href="#" class="nav-item nav-link">Menu</a>
-                <a href="{{ route('gallery.index') }}" class="nav-item nav-link">Galería</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu text-capitalize">
-                        <a href="#" class="dropdown-item">Reservation</a>
-                        <a href="#" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="#" class="nav-item nav-link">Contact</a>
+                <a href="{{ route('welcome') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">Inicio</a>
+                <a href="{{ route('course.index') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">Cursos</a>
+                <a href="#" class="nav-item nav-link">Noticias</a>
+                <a href="{{ route('gallery.index') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">Galería</a>
+                <a href="#" class="nav-item nav-link">Tienda</a>
+                <a href="{{ route('contact.index') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'contact.index' ? 'active' : '' }}">Contacto</a>
             </div>
         </div>
     </nav>
