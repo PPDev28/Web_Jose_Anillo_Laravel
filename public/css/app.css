@@ -61,7 +61,7 @@ body {
     line-height: 1.5;
     color: #555555;
     text-align: left;
-    background-color: #FFFBF2;
+    background-color: white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2916,7 +2916,7 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(17, 17, 17, 0.5);
 }
 
-.btn-link {
+.footer .btn-link {
     font-weight: 400;
     color: #af0606;
     text-decoration: none;
@@ -9725,4 +9725,23 @@ h6,
 }
 .navbar-nav .nav-item .nav-link {
     font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d4edda; /* Color de fondo verde */
+    color: #155724; /* Color de texto verde oscuro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+    animation: fadeOut 2s ease-in-out forwards; /* Animación de desaparición */
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }

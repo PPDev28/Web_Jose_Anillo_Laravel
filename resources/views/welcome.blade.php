@@ -12,6 +12,8 @@
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+        <script src="{{ asset('js/navbar-scroll.js') }}"></script>
+
         <!-- Scripts de Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -26,7 +28,7 @@
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
-        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div id="blog-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="w-100" src="{{asset('img/jose1.png')}}" alt="Image">

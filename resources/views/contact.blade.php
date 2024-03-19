@@ -8,7 +8,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -16,6 +16,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/navbar-scroll.js') }}"></script>
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
 
@@ -25,10 +26,10 @@
 
 </head>
 <body>
-
 @include('navbar')
 
 @include('header', ['title' => 'Contacto'])
+
 <!-- Contact Us Section -->
 <section class="Material-contact-section section-padding section-dark">
     <div class="container">

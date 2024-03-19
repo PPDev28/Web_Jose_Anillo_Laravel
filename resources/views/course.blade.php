@@ -12,6 +12,8 @@
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+    <script src="{{ asset('js/navbar-scroll.js') }}"></script>
+
     <!-- Scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -31,7 +33,6 @@
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 1950</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
