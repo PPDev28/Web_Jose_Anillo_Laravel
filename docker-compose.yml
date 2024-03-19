@@ -12,13 +12,26 @@ services:
             - ./:/app
         ports:
             # HTTPS
-            - target: 443
-              published: ${HTTPS_PORT:-443}
-              protocol: tcp
+            -   target: 443
+                published: ${HTTPS_PORT:-443}
+                protocol: tcp
             # HTTP/3
-            - target: 443
-              published: ${HTTP3_PORT:-443}
-              protocol: udp
+            -   target: 443
+                published: ${HTTP3_PORT:-443}
+                protocol: udp
+    smtp:
+        image: mailhog/mailhog
+        command: [ "-smtp-bind-addr", "0.0.0.0:25" ]
+        user: root
+        restart: unless-stopped
+        expose:
+            - 25
+            - 8025
+        ports:
+            - "8025:8025"
+            - "25:25"
+        healthcheck:
+            test: echo | telnet 127.0.0.1 25
     db:
         image: mariadb
         restart: always
@@ -35,4 +48,5 @@ volumes:
     caddy_data:
     caddy_config:
     database:
+
 

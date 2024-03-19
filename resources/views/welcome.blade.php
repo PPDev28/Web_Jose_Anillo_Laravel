@@ -56,7 +56,7 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 bg-white">
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Mí</h4>

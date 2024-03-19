@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>JoseAnilloWeb</title>
+    <title>Galería | Jose Anillo</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -16,47 +16,68 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/navbar-scroll.js') }}"></script>
+
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
 
 </head>
 
-<body>
-    @include('navbar')
+<body class="body">
 
-    @include('header', ['title' => 'Fotografías'])
+@include('navbar')
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 1950</h1>
+@include('header', ['title' => 'Galería'])
+
+<!-- Gallery -->
+
+{{--Fotos--}}
+<section>
+    <div class="container">
+        <div class="card-columns">
+            <div class="card border-0 d-flex">
+                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Card image cap">
             </div>
-            <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('img/jose1.png') }}" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
+            <div class="card border-0 d-flex">
+                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Card image cap">
+            </div>
+            <div class="card border-0 d-flex">
+                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Card image cap">
+            </div>
+            <div class="card border-0 d-flex justify-content-start">
+                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Card image cap">
+            </div>
+            <div class="card border-0 d-flex justify-content-start">
+                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Card image cap">
+            </div>
+            <div class="card border-0 d-flex justify-content-start">
+                <img class="card-img-top" src="{{asset('img/guitarra.png')}}" alt="Card image cap">
             </div>
         </div>
     </div>
-    <!-- About End -->
+</section>
 
-    @include('footer')
+
+{{--Videos--}}
+<section class="mt-5">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="mr-3">
+            <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/h5_0-rKfDFU?si=rSaDXj5dS4s7X-9Q"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/OkAz8dPubZE?si=8lsDa7rr7VjpkjXI"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<!-- End Gallery -->
+
+@include('footer')
 </body>

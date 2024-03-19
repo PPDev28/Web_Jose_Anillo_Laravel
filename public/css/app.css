@@ -2918,7 +2918,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #DA9F5B;
+    color: #af0606;
     text-decoration: none;
 }
 
@@ -4396,20 +4396,20 @@ input[type="button"].btn-block {
     border-top: 0;
 }
 
-.card-body {
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-}
+/*.card-body {*/
+/*    flex: 1 1 auto;*/
+/*    min-height: 1px;*/
+/*    padding: 1.25rem;*/
+/*}*/
 
-.card-title {
-    margin-bottom: 0.75rem;
-}
+/*.card-title {*/
+/*    margin-bottom: 0.75rem;*/
+/*}*/
 
-.card-subtitle {
-    margin-top: -0.375rem;
-    margin-bottom: 0;
-}
+/*.card-subtitle {*/
+/*    margin-top: -0.375rem;*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 .card-text:last-child {
     margin-bottom: 0;
@@ -9548,15 +9548,15 @@ h6,
     z-index: 1;
 }
 
-.overlay-top::before {
-    top: -1px;
-    background: url(../img/overlay-top.png);
-}
+/*.overlay-top::before {*/
+/*    top: -1px;*/
+/*    background: url(../img/wave-top.svg);*/
+/*}*/
 
-.overlay-bottom::after {
-    bottom: -1px;
-    background: url(../img/overlay-bottom.png);
-}
+/*.overlay-bottom::after {*/
+/*    bottom: -1px;*/
+/*    background: url(../img/wave-top.svg);*/
+/*}*/
 
 .carousel-caption {
     top: 0;
@@ -9655,7 +9655,7 @@ h6,
 }*/
 
 .footer {
-    background-color: rgb(72, 49, 27);
+    background-color: #000000;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9666,4 +9666,40 @@ h6,
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*Top Bar*/
+.navbar {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.navbar span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "MS Gothic", sans-serif;
+}
+
+.content {
+    padding-top: 60px;
+
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.text-white {
+    color: white !important;
 }
