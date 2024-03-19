@@ -1,5 +1,5 @@
 <div class="container-fluid mx-3 p-0 nav-bar">
-    <nav class="navbar navbar-expand-lg navbar-dark py-2">
+    <nav class="navbar navbar-lg navbar-expand-lg navbar-dark py-2">
         <div class="container">
             <a href="{{ route('welcome') }}" class="navbar-brand px-lg-4 m-0 mr-auto"> <!-- Añadí la clase mr-auto para separar el nombre hacia el extremo izquierdo -->
                 <h1 class="m-0 display-5 text-uppercase text-white" style="font-size: 24px;">JOSE ANILLO</h1>

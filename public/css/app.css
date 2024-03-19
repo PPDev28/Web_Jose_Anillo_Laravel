@@ -2923,7 +2923,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:hover {
-    color: #be792b;
+    color: #af0606;
     text-decoration: underline;
 }
 
@@ -2932,7 +2932,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:disabled, .btn-link.disabled {
-    color: #6c757d;
+    color: #af0606;
     pointer-events: none;
 }
 
@@ -6096,13 +6096,14 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #DA9F5B !important;
+    background-color: #000000 !important;
+    transition: background-color 0.3s ease;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-    background-color: #d18731 !important;
+    background-color: #111010 !important;
 }
 
 .bg-secondary {
@@ -9702,4 +9703,26 @@ h6,
 
 .text-white {
     color: white !important;
+}
+
+.bg-navbar {
+    background-color: #000000 !important;
+    transition: background-color 0.3s ease;
+}
+.bg-navbarTransparent {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-lg {
+    height: 100px; /* Ajusta el tamaño de la barra de navegación grande según sea necesario */
+    transition: height 0.5s ease; /* Agrega una transición suave */
+}
+
+.navbar-sm {
+    height: 70px; /* Ajusta el tamaño de la barra de navegación pequeña según sea necesario */
+    transition: height 0.5s ease; /* Agrega una transición suave */
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: "Franklin Gothic Medium", sans-serif;
 }
