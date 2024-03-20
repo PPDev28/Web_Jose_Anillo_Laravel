@@ -1,23 +1,39 @@
+
 <div class="container-fluid mx-3 p-0 nav-bar">
-    <nav class="navbar navbar-lg navbar-expand-lg navbar-dark py-2">
+    <nav class="navbar navbar-expand-lg navbar-light py-2">
         <div class="container">
-            <a href="{{ route('welcome') }}" class="navbar-brand px-lg-4 m-0 mr-auto"> <!-- Añadí la clase mr-auto para separar el nombre hacia el extremo izquierdo -->
-                <img class="w-100" src="{{asset('img/logoJose.png')}}" alt="Image">
+            <a href="{{ route('welcome') }}" class="navbar-brand px-lg-4 m-0 mr-auto">
+                <img class="w-100" src="{{asset('img/logoJoseAnilloBlanco.png')}}" width="100" height="100"
+                     alt="José Anillo">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto"> <!-- Añadí la clase ml-auto para separar los enlaces hacia el extremo derecho -->
-                    <a href="{{ route('welcome') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">Inicio</a>
-                    <a href="{{ route('course.index') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">Cursos</a>
-                    <a href="#" class="nav-item nav-link">Conciertos</a>
-                    <a href="{{ route('gallery.index') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">Galería</a>
-                    <a href="#" class="nav-item nav-link">Tienda</a>
-                    <a href="{{ route('contact.index') }}" class="nav-item nav-link {{ Route::currentRouteName() === 'contact.index' ? 'active' : '' }}">Contacto</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="{{ route('welcome') }}"  class="nav-link a-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('course.index') }}"
+                           class="nav-link a-item {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link a-item">Conciertos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('gallery.index') }}"
+                           class="nav-link a-item {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link a-item">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('contact.index') }}"
+                           class="nav-link a-item {{ Route::currentRouteName() === 'contact.index' ? 'active' : '' }}">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 </div>
-<!-- Navbar End -->

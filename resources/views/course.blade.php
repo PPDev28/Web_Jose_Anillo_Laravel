@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>JoseAnilloWeb</title>
+    <title>Cursos | Jose Anillo</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -24,40 +24,42 @@
 </head>
 
 <body>
-    @include('navbar')
+@include('navbar')
 
-    @include('header', ['title' => 'Cursos',])
+@include('header', ['title' => 'Cursos'])
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 py-3">
+                <h2 class="mb-3">Curso de Cante Avanzado</h2>
+                <img class="img-fluid" src="{{asset('img/jose2.png')}}" alt="Curso de Cante Avanzado">
+                <h5 class="mb-3 mt-3">Descripción del curso</h5>
+                <p></p>
+                <a href="{{ route('contact.index') }}" class="btn btn-secondary font-weight-bold py-2 px-4 mt-1">Contacta
+                    conmigo</a>
             </div>
-            <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('img/guitarra.png') }}" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
+            <div class="col-lg-4 col-md-6 py-3">
+                <h2 class="mb-3">Curso de Cante Flamenco</h2>
+                <img class="img-fluid" src="{{asset('img/jose1.png')}}" alt="Curso de Cante Flamenco">
+                <h5 class="mb-3 mt-3">Descripción del curso</h5>
+                <p></p>
+                <a href="{{ route('contact.index') }}" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Contacta
+                    conmigo</a>
+            </div>
+            <div class="col-lg-4 col-md-6 py-3">
+                <h2 class="mb-3">Curso de Guitarra Flamenca</h2>
+                <img class="img-fluid h-25" src="{{asset('img/guitarra.png')}}" alt="Curso de Guitarra Flamenca">
+                <h5 class="mb-3 mt-3">Descripción del curso</h5>
+                <a href="{{ route('contact.index') }}" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2 align-items-center">Contacta
+                    conmigo</a>
             </div>
         </div>
     </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
 
-    @include('footer')
+@include('footer')
 </body>
+</html>

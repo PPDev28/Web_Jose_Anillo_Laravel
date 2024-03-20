@@ -4,15 +4,20 @@ window.addEventListener("scroll", function () {
     let navbar = document.querySelector('.navbar');
 
     if (currentScroll > 0) {
-        document.querySelector('.navbar').classList.remove('bg-navbarTransparent'); // Elimina la clase de color de fondo
-        document.querySelector('.navbar').classList.add('bg-navbar'); // Agrega la clase de fondo transparente
+        document.querySelector('.navbar').classList.remove('bg-navbarTransparent');
+        document.querySelector('.navbar').classList.add('bg-navbar');
         document.querySelector('.navbar').classList.remove('navbar-lg');
         document.querySelector('.navbar').classList.add('navbar-sm');
+        document.querySelectorAll('.a-item').forEach(link => link.classList.add('black-text'));
+        // document.querySelector('.navbar-brand img').src = "{{ asset('img/logoJose.png') }}";
+
     } else {
-        document.querySelector('.navbar').classList.remove('bg-navbar'); // Elimina la clase de fondo transparente
-        document.querySelector('.navbar').classList.add('bg-navbarTransparent'); // Agrega la clase de color de fondo
+        document.querySelector('.navbar').classList.remove('bg-navbar');
+        document.querySelector('.navbar').classList.add('bg-navbarTransparent');
         document.querySelector('.navbar').classList.remove('navbar-sm');
         document.querySelector('.navbar').classList.add('navbar-lg');
+        document.querySelectorAll('.a-item').forEach(link => link.classList.remove('black-text'));
+        // document.querySelector('.navbar-brand img').src = "{{ asset('img/logoJoseAnilloBlanco.png') }}";
     }
 
     if (currentScroll <= 0) {

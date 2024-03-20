@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-    color: #DA9F5B;
+    color: white;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    color: #be792b;
+    color: #ff0000;
     text-decoration: underline;
 }
 
@@ -4274,9 +4274,9 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.5);
-}
+/*.navbar-light .navbar-nav .nav-link {*/
+/*    color: rgba(0, 0, 0, 0.5);*/
+/*}*/
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7);
@@ -4286,12 +4286,12 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
-    color: rgba(0, 0, 0, 0.9);
-}
+/*.navbar-light .navbar-nav .show > .nav-link,*/
+/*.navbar-light .navbar-nav .active > .nav-link,*/
+/*.navbar-light .navbar-nav .nav-link.show,*/
+/*.navbar-light .navbar-nav .nav-link.active {*/
+/*    color: rgba(0, 0, 0, 0.9);*/
+/*}*/
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
@@ -9706,7 +9706,7 @@ h6,
 }
 
 .bg-navbar {
-    background-color: #000000 !important;
+    background-color: #ffffff !important;
     transition: background-color 0.3s ease;
 }
 .bg-navbarTransparent {
@@ -9723,9 +9723,9 @@ h6,
     height: 70px; /* Ajusta el tamaño de la barra de navegación pequeña según sea necesario */
     transition: height 0.5s ease; /* Agrega una transición suave */
 }
-.navbar-nav .nav-item .nav-link {
-    font-family: "Franklin Gothic Medium", sans-serif;
-}
+/*.navbar-nav .nav-item .nav-link {*/
+/*    font-family: "Microsoft Himalaya", sans-serif;*/
+/*}*/
 
 .alert {
     position: fixed;
@@ -9744,4 +9744,22 @@ h6,
 @keyframes fadeOut {
     0% { opacity: 1; }
     100% { opacity: 0; }
+}
+
+.a-item {
+    transition: color 0.3s ease;
+}
+
+.black-text {
+    color: black; /* Estilo para los enlaces cuando la barra de navegación tiene fondo blanco */
+}
+
+.navbar-nav .nav-link {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+    color: #af0606;
 }
