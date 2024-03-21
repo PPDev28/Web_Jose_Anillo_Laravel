@@ -58,7 +58,7 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5 bg-white">
+    <div class="container-fluid py-5 ">
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Mí</h4>
@@ -75,14 +75,14 @@
                         <img class="position-absolute w-100 h-100" src="{{ asset('img/guitarra.png') }}" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Mi Sueño</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="{{ route('bio.index') }}" download="Biografia" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Biografia</a>
-                </div>
+{{--                <div class="col-lg-4 py-0 py-lg-5">--}}
+{{--                    <h1 class="mb-3">Mi Sueño</h1>--}}
+{{--                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>--}}
+{{--                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>--}}
+{{--                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>--}}
+{{--                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>--}}
+{{--                    <a href="{{ route('bio.index') }}" download="Biografia" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Biografia</a>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

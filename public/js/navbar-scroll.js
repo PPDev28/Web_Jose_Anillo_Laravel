@@ -3,7 +3,7 @@ window.addEventListener("scroll", function () {
     let currentScroll = window.scrollY || document.documentElement.scrollTop;
     let navbar = document.querySelector('.navbar');
 
-    if (currentScroll > 0) {
+    if (currentScroll > 100) {
         document.querySelector('.navbar').classList.remove('bg-navbarTransparent');
         document.querySelector('.navbar').classList.add('bg-navbar');
         document.querySelector('.navbar').classList.remove('navbar-lg');

@@ -35,27 +35,28 @@
 <section>
     <div class="container">
         <div class="card-columns">
-            <div class="card border-0 d-flex">
-                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Imagen de José 2">
             </div>
-            <div class="card border-0 d-flex">
-                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Imagen de José 2">
             </div>
-            <div class="card border-0 d-flex">
-                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Imagen de José 2">
             </div>
-            <div class="card border-0 d-flex justify-content-start">
-                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Imagen de José 1">
             </div>
-            <div class="card border-0 d-flex justify-content-start">
-                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Card image cap">
+            <div class="card">
+                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Imagen de José 1">
             </div>
-            <div class="card border-0 d-flex justify-content-start">
-                <img class="card-img-top" src="{{asset('img/guitarra.png')}}" alt="Card image cap">
+            <div class="card border-0">
+                <img class="card-img-top" src="{{asset('img/guitarra.png')}}" alt="Imagen de una guitarra">
             </div>
         </div>
     </div>
 </section>
+
 
 
 {{--Videos--}}

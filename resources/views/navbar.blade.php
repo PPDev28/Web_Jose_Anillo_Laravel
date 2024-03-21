@@ -26,7 +26,7 @@
                            class="nav-link a-item {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link a-item">Tienda</a>
+                        <a href="{{ route('shop.index') }}" class="nav-link a-item {{ Route::currentRouteName() === 'shop.index' ? 'active' : '' }}">Tienda</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('contact.index') }}"

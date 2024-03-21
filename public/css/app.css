@@ -61,7 +61,7 @@ body {
     line-height: 1.5;
     color: #555555;
     text-align: left;
-    background-color: white;
+    background-color: #f7f7f7;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9707,25 +9707,23 @@ h6,
 
 .bg-navbar {
     background-color: #ffffff !important;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
 }
 .bg-navbarTransparent {
     background-color: transparent !important;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
 }
 
 .navbar-lg {
     height: 100px; /* Ajusta el tamaño de la barra de navegación grande según sea necesario */
-    transition: height 0.5s ease; /* Agrega una transición suave */
+    transition: height 0.8s ease; /* Agrega una transición suave */
 }
 
 .navbar-sm {
     height: 70px; /* Ajusta el tamaño de la barra de navegación pequeña según sea necesario */
-    transition: height 0.5s ease; /* Agrega una transición suave */
+    transition: height 0.8s ease; /* Agrega una transición suave */
 }
-/*.navbar-nav .nav-item .nav-link {*/
-/*    font-family: "Microsoft Himalaya", sans-serif;*/
-/*}*/
+
 
 .alert {
     position: fixed;
@@ -9747,7 +9745,7 @@ h6,
 }
 
 .a-item {
-    transition: color 0.3s ease;
+    transition: color 0.8s ease;
 }
 
 .black-text {
@@ -9757,7 +9755,7 @@ h6,
 .navbar-nav .nav-link {
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    transition: color 0.3s ease;
+    transition: color 0.8s ease;
 }
 
 .navbar-nav .nav-link.active {
