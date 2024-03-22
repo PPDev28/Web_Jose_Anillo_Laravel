@@ -35,10 +35,10 @@
             <div class="col-lg-4 col-md-6 py-3">
 {{--                <h2 class="mb-3">Los balcones de mi sueño</h2>--}}
                 <img class="img-fluid" src="{{asset('img/disco_Jose_Anillo.jpg')}}" alt="Disco">
-                <h5 class="mb-3 mt-3">Los balcones de mi sueño
+                <h5 class="mb-3 mt-3 text-center">Los balcones de mi sueño
                     - Disco de CD</h5>
-                <b> <p class="text-dark bold">20,00$</p> </b>
-                <a href="{{ route('contact.index') }}" class="btn btn-secondary font-weight-bold py-2 px-4 mt-1 ">Añadir al carrito</a>
+                <b> <p class="text-dark bold text-center">20,00$</p> </b>
+                <a href="" class="btn btn-secondary d-flex font-weight-bold justify-content-center">Añadir al carrito</a>
             </div>
         </div>
     </div>

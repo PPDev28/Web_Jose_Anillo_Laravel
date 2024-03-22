@@ -12,25 +12,25 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="{{ route('welcome') }}"  class="nav-link a-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">Inicio</a>
+                        <a href="{{ route('welcome') }}"  class="nav-link a-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">INICIO</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('course.index') }}"
-                           class="nav-link a-item {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">Cursos</a>
+                           class="nav-link a-item {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">CURSOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link a-item">Conciertos</a>
+                        <a href="#" class="nav-link a-item">CONCIERTOS</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('gallery.index') }}"
-                           class="nav-link a-item {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">Galería</a>
+                           class="nav-link a-item {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">GALERIA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('shop.index') }}" class="nav-link a-item {{ Route::currentRouteName() === 'shop.index' ? 'active' : '' }}">Tienda</a>
+                        <a href="{{ route('shop.index') }}" class="nav-link a-item {{ Route::currentRouteName() === 'shop.index' ? 'active' : '' }}">TIENDA</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('contact.index') }}"
-                           class="nav-link a-item {{ Route::currentRouteName() === 'contact.index' ? 'active' : '' }}">Contacto</a>
+                           class="nav-link a-item {{ Route::currentRouteName() === 'contact.index' ? 'active' : '' }}">CONTACTO</a>
                     </li>
                 </ul>
             </div>
