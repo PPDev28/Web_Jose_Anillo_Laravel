@@ -32,14 +32,14 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 py-3">
-{{--                <h2 class="mb-3">Los balcones de mi sueño</h2>--}}
+            <p><b>Próximamente...</b></p>
+            {{-- <div class="col-lg-4 col-md-6 py-3">
                 <img class="img-fluid" src="{{asset('img/disco_Jose_Anillo.jpg')}}" alt="Disco">
                 <h5 class="mb-3 mt-3 text-center">Los balcones de mi sueño
                     - Disco de CD</h5>
                 <b> <p class="text-dark bold text-center">20,00$</p> </b>
                 <a href="" class="btn btn-secondary d-flex font-weight-bold justify-content-center">Añadir al carrito</a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

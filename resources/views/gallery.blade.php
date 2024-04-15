@@ -36,22 +36,22 @@
     <div class="container">
         <div class="card-columns">
             <div class="card">
-                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Imagen de José 2">
+                <img class="card-img-top" src="{{asset('img/gallery_1.jpeg')}}" alt="Imagen de José 2">
             </div>
             <div class="card">
-                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Imagen de José 2">
+                <img class="card-img-top" src="{{asset('img/gallery_2.jpg')}}" alt="Imagen de José 2">
             </div>
             <div class="card">
-                <img class="card-img-top" src="{{asset('img/jose2.png')}}" alt="Imagen de José 2">
+                <img class="card-img-top" src="{{asset('img/gallery_3.jpg')}}" alt="Imagen de José 2">
             </div>
             <div class="card">
-                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Imagen de José 1">
+                <img class="card-img-top" src="{{asset('img/gallery_4.jpg')}}" alt="Imagen de José 1">
             </div>
             <div class="card">
-                <img class="card-img-top" src="{{asset('img/jose1.png')}}" alt="Imagen de José 1">
+                <img class="card-img-top" src="{{asset('img/gallery_5.jpg')}}" alt="Imagen de José 1">
             </div>
-            <div class="card border-0">
-                <img class="card-img-top" src="{{asset('img/guitarra.png')}}" alt="Imagen de una guitarra">
+            <div class="card">
+                <img class="card-img-top" src="{{asset('img/gallery_6.jpg')}}" alt="Imagen de una guitarra">
             </div>
         </div>
     </div>
