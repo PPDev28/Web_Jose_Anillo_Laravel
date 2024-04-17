@@ -13,7 +13,7 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <script src="{{ asset('js/navbar-scroll.js') }}"></script>
-
+        
         <!-- Scripts de Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -23,7 +23,6 @@
 
     </head>
     <body>
-
     @include('navbar')
 
     <!-- Carousel Start -->
@@ -68,7 +67,7 @@
                     <h1 class="mb-3">Mi Historia</h1>
                     <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
                     <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <a href="{{ route('bio.index') }}" download="Biografia" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Biografia</a>
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">

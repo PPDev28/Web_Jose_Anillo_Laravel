@@ -23,7 +23,7 @@
 
 </head>
 
-<body class="body">
+<body>
 
 @include('navbar')
 
@@ -59,25 +59,33 @@
 
 
 
-{{--Videos--}}
+<!-- Videos -->
 <section class="mt-5">
-    <div class="container d-flex justify-content-center align-items-center">
-        <div class="mr-3">
-            <iframe width="560" height="315"
-                    src="https://www.youtube-nocookie.com/embed/h5_0-rKfDFU?si=rSaDXj5dS4s7X-9Q"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315"
-                    src="https://www.youtube-nocookie.com/embed/OkAz8dPubZE?si=8lsDa7rr7VjpkjXI"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="https://www.youtube-nocookie.com/embed/h5_0-rKfDFU?si=rSaDXj5dS4s7X-9Q"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="https://www.youtube-nocookie.com/embed/OkAz8dPubZE?si=8lsDa7rr7VjpkjXI"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<!-- End Videos -->
+
 <!-- End Gallery -->
 
 @include('footer')
