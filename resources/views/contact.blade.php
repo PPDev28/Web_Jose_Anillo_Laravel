@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Jose Anillo</title>
+    <title>Contacto| Jose Anillo</title>
+    <link rel="icon" href="{{ asset('img/Favicon_JA.png') }}" type="image/png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

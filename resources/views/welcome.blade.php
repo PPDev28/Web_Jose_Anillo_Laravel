@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Jose Anillo</title>
+        <title>Inicio| Jose Anillo</title>
+        <link rel="icon" href="{{ asset('img/Favicon_JA.png') }}" type="image/png">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -23,8 +24,7 @@
 
     </head>
     <body>
-    @include('navbar')
-
+    @include('navbar') 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div id="blog-carousel" class="carousel slide" data-ride="carousel">
@@ -32,17 +32,17 @@
                 <div class="carousel-item active">
                     <img class="w-100" src="{{asset('img/jose1.png')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">Ejemplo</h2>
-                        <h1 class="display-1 text-white m-0">Ejemplo</h1>
-                        <h2 class="text-white m-0">Ejemplo</h2>
+                        <!-- <h2 class="text-primary font-weight-medium m-0">Jose Anillo</h2> -->
+                        <!-- <h1 class="display-1 text-white m-0">Jose Anillo</h1> -->
+                        <h1 class="text-white m-0">Jose Anillo</h1> 
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="{{asset('img/jose2.png')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">Ejemplo</h2>
-                        <h1 class="display-1 text-white m-0">Ejemplo</h1>
-                        <h2 class="text-white m-0">Ejemplo</h2>
+                        <!-- <h2 class="text-primary font-weight-medium m-0">Ejemplo</h2> -->
+                        <!-- <h1 class="display-1 text-white m-0">Jose Anillo</h1> -->
+                        <h1 class="text-white m-0">Jose Anillo</h1>
                     </div>
                 </div>
             </div>
