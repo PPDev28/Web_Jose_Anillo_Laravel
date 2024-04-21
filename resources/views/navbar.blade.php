@@ -12,7 +12,7 @@
                     <path d="M23 14H0" stroke="white"></path>
                 </svg>
             </button>
-            <div class="collapse navbar-collapse ul-container d-none" id="navbarCollapse">
+            <div class="collapse navbar-collapse ul-container" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto" id="nav-links">
                     <li class="nav-item">
                         <a href="{{ route('welcome') }}"
@@ -20,7 +20,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('biography.index') }}"
-                           class="nav-link a-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">BIOGRAFÍA</a>
+                           class="nav-link a-item {{ Route::currentRouteName() === 'biography.index' ? 'active' : '' }}">BIOGRAFÍA</a>
                     </li>
                     {{--<li class="nav-item">
                         <a href="{{ route('course.index') }}"
@@ -53,6 +53,7 @@
         $('#menu-toggle').click(function () {
             console.log("Validación de click");
             $('.collapse').slideToggle();
+            $('.navbar-nav').toggleClass('navbar-dark-bg');
             // $('.ul-container').toggleClass('bg-transparent');
         });
     });

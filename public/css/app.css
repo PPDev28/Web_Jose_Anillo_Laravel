@@ -10981,6 +10981,11 @@ h6,
     color: #dc3545;
 }
 
+.navbar-dark-bg {
+    background-color: black;
+    /* Ajusta cualquier otra propiedad CSS que desees para el fondo oscuro */
+}
+
 /* @media (width <= 1023px) {
     .navbar {
         background-color: black !important;
@@ -10993,9 +10998,9 @@ h6,
 
     .navbar-brand img {
         width: 150px;
-        
+
         height: 75px;
-         
+
         margin-top: -10px
     }
 
@@ -11003,30 +11008,30 @@ h6,
         position: absolute;
         top: 50%;
         right: 15px;
-         
+
         transform: translateY(-50%);
     }
 
     .container-fluid.mx-3.p-0.nav-bar+* {
         margin-top: 75px;
-        
+
     }
 
     .navbar-toggler {
-        display: block !important; 
-        background-color: transparent; 
-        border: none; 
-        outline: none; 
-        float: right; 
-        margin-right: 15px; 
+        display: block !important;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        float: right;
+        margin-right: 15px;
     }
- 
+
     .navbar-toggler:focus+.navbar-collapse {
         display: block !important;
     }
- 
+
     .navbar-nav {
-        text-align: right; 
+        text-align: right;
     }
 
     .navbar-nav .nav-item {
@@ -11045,7 +11050,7 @@ h6,
 
     .ul-container {
         background-color: black;
-        width: 100%; 
+        width: 100%;
         padding: 10px;
     }
 }  */
