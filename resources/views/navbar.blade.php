@@ -19,19 +19,23 @@
                             class="nav-link a-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">INICIO</a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{ route('biography.index') }}"
+                           class="nav-link a-item {{ Route::currentRouteName() === 'welcome' ? 'active' : '' }}">BIOGRAFÍA</a>
+                    </li>
+                    {{--<li class="nav-item">
                         <a href="{{ route('course.index') }}"
                             class="nav-link a-item {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">CURSOS</a>
-                    </li>
+                    </li>--}}
                     <li class="nav-item">
                         <a href="#" class="nav-link a-item">EVENTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('gallery.index') }}"
-                            class="nav-link a-item {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">GALERIA</a>
+                        <a href="{{ route('shop.index') }}"
+                           class="nav-link a-item {{ Route::currentRouteName() === 'shop.index' ? 'active' : '' }}">TIENDA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('shop.index') }}"
-                            class="nav-link a-item {{ Route::currentRouteName() === 'shop.index' ? 'active' : '' }}">TIENDA</a>
+                        <a href="{{ route('gallery.index') }}"
+                            class="nav-link a-item {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">GALERIA</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('contact.index') }}"
