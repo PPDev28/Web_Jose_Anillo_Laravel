@@ -10926,6 +10926,10 @@ h6,
     /* Agrega una transición suave */
 }
 
+.navbar-mobile{
+    height: 100px;
+    background-color: black;
+}
 
 .alert {
     position: fixed;
