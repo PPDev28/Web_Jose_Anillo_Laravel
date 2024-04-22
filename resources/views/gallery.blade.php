@@ -35,28 +35,25 @@
 {{--Fotos--}}
 <section>
     <div class="container">
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img-top" src="{{asset('img/gallery_1.jpeg')}}" alt="Imagen de José 2">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="{{asset('img/gallery_main.webp')}}">
+                <img class="img-fluid" src="{{asset('img/gallery_2.webp')}}">
+                <img class="img-fluid" src="{{asset('img/gallery_3.webp')}}">
+                <img class="img-fluid" src="{{asset('img/little_event_1.webp')}}">
             </div>
-            <div class="card">
-                <img class="card-img-top" src="{{asset('img/gallery_2.jpg')}}" alt="Imagen de José 2">
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="{{asset('img/gallery_3.jpg')}}" alt="Imagen de José 2">
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="{{asset('img/gallery_4.jpg')}}" alt="Imagen de José 1">
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="{{asset('img/gallery_5.jpg')}}" alt="Imagen de José 1">
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="{{asset('img/gallery_6.jpg')}}" alt="Imagen de una guitarra">
+            <div class="col-md-6">
+                <img class="img-fluid" src="{{asset('img/gallery_6.webp')}}">
+                <img class="img-fluid" src="{{asset('img/gallery_4.webp')}}">
+                <img class="img-fluid" src="{{asset('img/gallery_5.webp')}}">
             </div>
         </div>
     </div>
 </section>
+
+
+
+
 
 
 
