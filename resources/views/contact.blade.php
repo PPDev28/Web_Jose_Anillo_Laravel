@@ -94,5 +94,5 @@
     </div>
 </section>
 
-@include('footer')
+@include('footer2')
 </body>

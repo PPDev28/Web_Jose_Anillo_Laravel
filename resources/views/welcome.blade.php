@@ -22,35 +22,25 @@
 
         <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
 
+        <script src="{{asset('js/home-transition.js')}}"></script>
+
     </head>
     <body>
     @include('navbar')
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div id="blog-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="{{asset('img/home_1.webp')}}" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="{{asset('img/home_2.webp')}}" alt="Image">
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="{{asset('img/home_3.webp')}}" alt="Image">
-                </div>
+    <div class="carousel-container">
+        <div class="carousel-custom">
+            <div class="pic visible">
+                <img src="{{asset('img/home_1.webp')}}" alt="jose1">
             </div>
-            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+            <div class="pic">
+                <img src="{{asset('img/home_2.webp')}}" alt="jose2">
+            </div>
+            <div class="pic">
+                <img src="{{asset('img/home_3.webp')}}" alt="jose3">
+            </div>
         </div>
     </div>
-    <!-- Carousel End -->
 
-    @include('footer')
+    @include('footer2')
     </body>
 </html>

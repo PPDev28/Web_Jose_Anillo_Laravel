@@ -46,6 +46,6 @@
 </div>
 <!-- About End -->
 
-@include('footer')
+@include('footer2')
 </body>
 </html>

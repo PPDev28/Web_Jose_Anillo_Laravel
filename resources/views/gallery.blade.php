@@ -51,12 +51,6 @@
     </div>
 </section>
 
-
-
-
-
-
-
 <!-- Videos -->
 <!--<section class="mt-5">
     <div class="container">
@@ -86,5 +80,5 @@
 
 <!-- End Gallery -->
 
-@include('footer')
+@include('footer2')
 </body>
