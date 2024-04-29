@@ -58,7 +58,7 @@
 
 
 <!-- Videos -->
-<section class="mt-5">
+<!--<section class="mt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 mb-3">
@@ -81,7 +81,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- End Videos -->
 
 <!-- End Gallery -->

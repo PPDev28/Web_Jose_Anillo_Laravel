@@ -36,28 +36,22 @@
         <div class="row">
             <!-- Section Titile -->
             <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                <h1 class="section-title">Contacta con Jose Anillo</h1>
+                <h1 class="section-title">Contacta con José Anillo</h1>
             </div>
         </div>
         <div class="row">
             <!-- Section Titile -->
             <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                <p>Contacta con Jose Anillo para obtener más información acerca de cursos, contrataciones, etc.</p>
+                <p>Contacta con José Anillo para obtener más información acerca de cursos, contrataciones, etc.</p>
                 <div class="find-widget">
-                    Company:  <a href="https://hostriver.ro">Ejemplo</a>
+                    <b>Empresa</b>:  CEB Productions, LLC
                 </div>
                 <div class="find-widget">
-                    Address: <a href="#">Ejemplo</a>
+                    <b>Email</b>: CEBproductions@nicamor.org
                 </div>
                 <div class="find-widget">
-                    Phone:  <a href="#">Ejemplo</a>
-                </div>
-
-                <div class="find-widget">
-                    Website:  <a href="https://uny.ro">Ejemplo</a>
-                </div>
-                <div class="find-widget">
-                    Horario: <a href="#">Ejemplo</a>
+                    <b>Teléfono José Anillo</b>:  (+34) 611 017 863 <br>
+                    <b>Teléfono CEB Productions, LLC</b>: +1 (510) 260 5635
                 </div>
             </div>
             <!-- contact form -->

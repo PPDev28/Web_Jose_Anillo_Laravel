@@ -30,18 +30,15 @@
         <div id="blog-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{asset('img/jose1.png')}}" alt="Image">
+                    <img class="w-100" src="{{asset('img/home_1.webp')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <!-- <h2 class="text-primary font-weight-medium m-0">Jose Anillo</h2> -->
-                        <!-- <h1 class="display-1 text-white m-0">Jose Anillo</h1> -->
-                        <h1 class="text-white m-0">Jose Anillo</h1>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{asset('img/jose2.png')}}" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h1 class="text-white m-0">Jose Anillo</h1>
-                    </div>
+                    <img class="w-100" src="{{asset('img/home_2.webp')}}" alt="Image">
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{asset('img/home_3.webp')}}" alt="Image">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
