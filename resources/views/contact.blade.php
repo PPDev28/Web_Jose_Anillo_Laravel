@@ -28,14 +28,14 @@
 <body>
 @include('navbar')
 
-@include('header', ['title' => 'Contacto'])
+@include('header', ['parent' => 'contact'])
 
 <!-- Contact Us Section -->
-<section class="Material-contact-section section-padding section-dark">
+<section class="Material-contact-section section-padding">
     <div class="container">
         <div class="row">
             <!-- Section Titile -->
-            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+            <div class="col-md-12" data-wow-delay=".2s">
                 <h1 class="section-title">Contacta con José Anillo</h1>
             </div>
         </div>

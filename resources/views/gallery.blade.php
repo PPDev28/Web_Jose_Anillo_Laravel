@@ -28,26 +28,46 @@
 
 @include('navbar')
 
-@include('header', ['title' => 'Galería'])
+@include('header', ['parent' => 'gallery'])
 
 <!-- Gallery -->
 
 {{--Fotos--}}
 <section>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid" src="{{asset('img/gallery_main.webp')}}">
-                <img class="img-fluid" src="{{asset('img/gallery_2.webp')}}">
-                <img class="img-fluid" src="{{asset('img/gallery_3.webp')}}">
-                <img class="img-fluid" src="{{asset('img/little_event_1.webp')}}">
-            </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="{{asset('img/gallery_6.webp')}}">
-                <img class="img-fluid" src="{{asset('img/gallery_4.webp')}}">
-                <img class="img-fluid" src="{{asset('img/gallery_5.webp')}}">
-            </div>
-        </div>
+        <table class="table">
+            <tbody>
+            <tr>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_5.webp')}}">
+                </td>
+                <td rowspan="2">
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_6.webp')}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{ asset('img/gallery_1.webp') }}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_2.webp')}}">
+                </td>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_3.webp')}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_4.webp')}}">
+                </td>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_main.webp')}}">
+                </td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </section>
 
@@ -79,6 +99,5 @@
 <!-- End Videos -->
 
 <!-- End Gallery -->
-
 @include('footer2')
 </body>

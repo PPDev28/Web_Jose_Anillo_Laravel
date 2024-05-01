@@ -12,8 +12,8 @@ readonly class BioController
 
     public function index(): BinaryFileResponse|RedirectResponse
     {
-        $archive = public_path('archives/bioJoseAnillo.pdf');
+        $archive = public_path('archives/dossier_jose.pdf');
 
-        return $this->downloadService->download($archive, 'Biografia.pdf');
+        return $this->downloadService->download($archive, 'Dossier.pdf');
     }
 }

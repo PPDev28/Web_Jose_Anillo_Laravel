@@ -26,25 +26,37 @@
 <body>
 @include('navbar')
 
-@include('header', ['title' => 'Biografía'])
+@include('header', ['parent' => 'biography'])
 
 <!-- About Start -->
 <div class="container-fluid py-5 ">
     <div class="container">
-        <div class="section-title">
-            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Mí</h4>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 py-0 py-lg-5">
-                <h1 class="mb-3">Mi Historia</h1>
-                <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                <a href="{{ route('bio.index') }}" download="Biografia" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Biografia</a>
-            </div>
-            <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="{{ asset('img/guitarra.png') }}" style="object-fit: cover;">
-                </div>
+        <div>
+            <div>
+                <h1 style="color: black">Mi Historia</h1>
+                <p>
+                    José Anillo, nació en Cádiz, el 9 de julio de 1978.
+                    Sus primeros pasos artísticos fueron cantando en los cuadros de numerosas academias de
+                    baile de Cádiz, San Fernando, y Chiclana. Comenzó su carrera profesional formando parte de la
+                    compañía de Manuela Carrasco, debutando en el Teatro de la Villa de Madrid y en el Gran Teatro Falla
+                    de Cádiz. A los 18 años, continuó su carrera en diversas compañías como las de Cristina Hoyos,
+                    Belén Maya, Joaquín Grillo, Israel Galván, Javier Latorre, y Rafael Campallo, entre otros.
+                    Fue seleccionado para integrar el cartel, “Los 12 Nombres para Empezar el Siglo XXI”,
+                    del Festival de Música y Danza de Granada. En agosto de 2003, consiguió el “Premio Nacional
+                    de Cantes por Alegrías de Cádiz” en la edición dedicada a Manolo Vargas. En el 2011, recibió el
+                    premio “Disco Revelación” con “Los Balcones de Mi Sueño”, y en 2016, alcanza el “Premio Nacional de
+                    Córdoba Absoluto”. Este mismo año se lleva el galardón a los “Cantes Bajos Andaluces” por Alegrías
+                    de Cádiz del “Concurso de Las Minas”. Cantándole a numerosos artistas, ha estado presente en
+                    una cantidad de programas de la televisión española. También ha protagonizado colaboraciones
+                    discográficas con artistas como Paco de Lucía, Capullo de Jerez, y Fernando de la Morena,
+                    así como en el disco colectivo, “Flamenco por Andalucía, España y la Humanidad”, junto a las
+                    cantaoras Encarna Anillo y La Tana. Su cante ha viajado a multitud de países de todo el continente
+                    americano, a países asiáticos como Japón, Filipinas, y a toda Europa, incluyendo muchas ciudades españolas.
+                    Tiene su academia online de cante llamada Comunidad Anillo, hace talleres en academias de baile, y
+                    prepara de manera personalizada a futuros cantaores.
+
+                </p>
+                <a href="{{ route('bio.index') }}" download="Biografia" class="btn btn-dark">Biografia</a>
             </div>
         </div>
     </div>

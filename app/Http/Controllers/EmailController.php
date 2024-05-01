@@ -17,7 +17,7 @@ class EmailController
         $email = $request->request->get('email');
         $msg = $request->request->get('message');
 
-        $to = 'correoJoseAnillo@gmail.com';
+        $to = 'contacto@joseanillo.com';
 
         Mail::to($to)->send(new MailSender($name, $subject, $email, $msg));
 

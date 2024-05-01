@@ -387,7 +387,7 @@ h6,
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.2;
-    color: #33211D;
+    color: black;
 }
 
 h1,
@@ -2708,22 +2708,22 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-    color: #212529;
-    background-color: #DA9F5B;
-    border-color: #DA9F5B;
+    color: white;
+    background-color: black;
+    border-color: black;
 }
 
 .btn-primary:hover {
     color: #212529;
-    background-color: #d38d3c;
-    border-color: #d18731;
+    background-color: black;
+    border-color: black;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
     color: #212529;
-    background-color: #d38d3c;
-    border-color: #d18731;
+    background-color: black;
+    border-color: black;
     box-shadow: 0 0 0 0.2rem rgba(190, 141, 84, 0.5);
 }
 
@@ -10776,10 +10776,8 @@ h6,
     content: "";
     width: 2px;
     height: 100px;
-    top: 0;
     left: 50%;
     margin-left: 1px;
-    background: #DA9F5B;
 }
 
 .service-icon {
@@ -10865,9 +10863,22 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(217, 168, 138, 0.3), rgba(243, 228, 194, 0.3)), url(../img/jose1.png);
-    background-position: top;
-    background-repeat: no-repeat;
+    background: url(../img/jose1.png) no-repeat top;
+    background-size: cover;
+}
+
+.page-header-bio {
+    background: url(../img/biography.webp) no-repeat top;
+    background-size: cover;
+}
+
+.page-header-contact {
+    background: url(../img/contact.webp) no-repeat top;
+    background-size: cover;
+}
+
+.page-header-gallery {
+    background: url(../img/gallery_header.webp) no-repeat top;
     background-size: cover;
 }
 
@@ -11257,4 +11268,25 @@ h6,
         margin-right:0;
         font-weight:600
     }
+}
+
+.table {
+    width: 100%;
+}
+
+.table img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer; /* Cambia el cursor al hacer hover sobre la imagen */
+}
+
+.gallery-img:hover {
+    transform: scale(1.5);
 }

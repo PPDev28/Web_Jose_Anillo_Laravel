@@ -8,6 +8,7 @@ use App\Http\Controllers\BiographyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\EmailController;
 use \App\Http\Controllers\ShopController;
+use App\Http\Controllers\LanguageController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -22,3 +23,4 @@ Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
 
 Route::post('/send-email', [EmailController::class, 'index'])->name('email.index');
 
+Route::get('lang/{lang}', [LanguageController::class, 'swap'])->name('lang.swap');
