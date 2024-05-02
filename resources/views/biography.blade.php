@@ -33,7 +33,7 @@
     <div class="container">
         <div>
             <div>
-                <h1 style="color: black">Mi Historia</h1>
+                <h1 style="color: white">Mi Historia</h1>
                 <p>
                     José Anillo, nació en Cádiz, el 9 de julio de 1978.
                     Sus primeros pasos artísticos fueron cantando en los cuadros de numerosas academias de
@@ -56,7 +56,7 @@
                     prepara de manera personalizada a futuros cantaores.
 
                 </p>
-                <a href="{{ route('bio.index') }}" download="Biografia" class="btn btn-dark">Biografia</a>
+                <a href="{{ route('bio.index') }}" download="Biografia" class="btn" style="background-color: white; color: black;">Biografia</a>
             </div>
         </div>
     </div>

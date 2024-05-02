@@ -39,37 +39,67 @@
             <tbody>
             <tr>
                 <td>
-                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_5.webp')}}">
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_5.webp')}}" id="gal">
                 </td>
-                <td rowspan="2">
-                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_6.webp')}}">
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_6.webp')}}" id="gal">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img class="img-fluid gallery-img" src="{{ asset('img/gallery_1.webp') }}">
+                    <img class="img-fluid gallery-img" src="{{ asset('img/gallery_1.webp') }}" id="gal">
+                </td>
+                <td>
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_2.webp')}}" id="gal">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_2.webp')}}">
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_3.webp')}}" id="gal">
                 </td>
                 <td>
-                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_3.webp')}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_4.webp')}}">
-                </td>
-                <td>
-                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_main.webp')}}">
+                    <img class="img-fluid gallery-img" src="{{asset('img/gallery_4.webp')}}" id="gal">
                 </td>
             </tr>
             </tbody>
         </table>
     </div>
 </section>
+
+<!--<section class="gallery-section">
+    <div class="container gallery-container">
+        <div class="gallery-row">
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_5.webp') }}" id="gal5">
+            </div>
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_6.webp') }}" id="gal6">
+            </div>
+        </div>-->
+        <!--<div class="gallery-row">
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_1.webp') }}" id="gal1">
+            </div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_2.webp') }}">
+            </div>
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_3.webp') }}">
+            </div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_4.webp') }}">
+            </div>
+            <div class="gallery-column">
+                <img class="img-fluid gallery-img" src="{{ asset('img/gallery_main.webp') }}">
+            </div>
+        </div>-->
+    <!--</div>
+</section>-->
+
 
 <!-- Videos -->
 <!--<section class="mt-5">
