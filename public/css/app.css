@@ -10878,10 +10878,22 @@ h6,
     height: 700px;
 }
 
+.page-header-event {
+    background: url(../img/events.webp) no-repeat top;
+    background-size: cover;
+    height: 900px;
+}
+
 .page-header-gallery {
     background: url(../img/gallery_main.webp) no-repeat top;
     background-size: cover;
     height: 900px;
+}
+
+.page-header-shop {
+    background: url(../img/home_3.webp) no-repeat top;
+    background-size: cover;
+    height: 700px;
 }
 
 /*Top Bar*/
@@ -11323,5 +11335,36 @@ h6,
         width: 200px; /* O cualquier otro valor que desees para pantallas móviles */
         height: 200px; /* Altura automática para mantener la proporción */
     }
+}
+
+.event {
+    display: flex;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.event img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 50px;
+}
+
+.event-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.event-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.event-info p {
+    font-size: 16px;
+    color: white;
 }
 

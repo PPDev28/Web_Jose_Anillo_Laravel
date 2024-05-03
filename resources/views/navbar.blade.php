@@ -24,7 +24,8 @@
                             class="nav-link a-item {{ Route::currentRouteName() === 'course.index' ? 'active' : '' }}">CURSOS</a>
                     </li>--}}
                     <li class="nav-item">
-                        <a href="#" class="nav-link a-item">EVENTOS</a>
+                        <a href="{{ route('event.index') }}"
+                           class="nav-link a-item {{ Route::currentRouteName()  === 'event.index' ? 'active' : '' }}">EVENTOS</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('shop.index') }}"

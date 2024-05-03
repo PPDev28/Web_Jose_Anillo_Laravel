@@ -9,9 +9,12 @@
                 <a class="btn btn-lg btn-link" href="https://www.youtube.com/@JoseAnilloOficial" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
-        <div class="mt-3">
+        <div class="d-flex justify-content-between align-items-center mt-3">
             <p class="mb-1 text-white">Copyright &copy; <a class="font-weight-bold text-danger" href="#">Domain</a>. All Rights Reserved.</p>
             <p class="m-0 text-white">Designed by <a class="font-weight-bold text-danger" href="#">Pepe And Jose</a></p>
+            <div class="d-flex align-items-center">
+                <img src="{{ asset('img/logo_CEB.jpg') }}" alt="logo CEB" class="mr-2">
+            </div>
         </div>
     </div>
 </div>

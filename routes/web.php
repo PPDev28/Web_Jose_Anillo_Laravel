@@ -7,8 +7,9 @@ use App\Http\Controllers\BioController;
 use App\Http\Controllers\BiographyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\EmailController;
-use \App\Http\Controllers\ShopController;
+use App\Http\Controllers\ShopController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\EventController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -20,6 +21,7 @@ Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery.index
 Route::get('/descargar-biografia', [BioController::class, 'index'])->name('bio.index');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
+Route::get('/event', [EventController::class, 'index'])->name('event.index');
 
 Route::post('/send-email', [EmailController::class, 'index'])->name('email.index');
 

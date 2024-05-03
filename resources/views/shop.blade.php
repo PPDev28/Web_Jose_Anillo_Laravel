@@ -27,7 +27,7 @@
 <body>
 @include('navbar')
 
-@include('header', ['parent' => 'default'])
+@include('header', ['parent' => 'shop'])
 
 <!-- About Start -->
 <div class="container-fluid py-5">

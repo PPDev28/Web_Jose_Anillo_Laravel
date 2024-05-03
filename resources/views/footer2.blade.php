@@ -12,11 +12,14 @@
         <hr>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-8 col-sm-6 col-xs-12">
                 <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
                     <a href="#">Jose's Company</a>.
                 </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12" style="text-align-last: end"> <!-- Utilizamos la clase text-md-end para alinear a la derecha en dispositivos medianos -->
+                <img src="{{ asset('img/logo_CEB.jpg') }}" alt="logo CEB" class="ml-2" style="width: 50px; height: 50px;">
             </div>
         </div>
     </div>

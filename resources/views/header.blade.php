@@ -6,6 +6,10 @@
         page-header-contact
     @elseif($parent == 'gallery')
         page-header-gallery
+    @elseif($parent == 'event')
+        page-header-event
+    @elseif($parent == 'shop')
+        page-header-shop
     @else
         page-header
     @endif
