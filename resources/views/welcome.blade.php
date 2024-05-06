@@ -26,7 +26,7 @@
 
     </head>
     <body>
-    @include('new-navbar')
+    @include('navbar')
     <div class="carousel-container">
         <div class="carousel-custom">
             <div class="pic visible">
