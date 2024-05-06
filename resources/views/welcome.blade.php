@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Inicio| Jose Anillo</title>
+        <title>Inicio | Jose Anillo</title>
         <link rel="icon" href="{{ asset('img/Favicon_JA.png') }}" type="image/png">
 
         <!-- Fonts -->
@@ -26,7 +26,7 @@
 
     </head>
     <body>
-    @include('navbar')
+    @include('new-navbar')
     <div class="carousel-container">
         <div class="carousel-custom">
             <div class="pic visible">

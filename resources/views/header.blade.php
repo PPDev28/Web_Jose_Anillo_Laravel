@@ -4,7 +4,7 @@
         page-header-bio
     @elseif($parent == 'contact')
         page-header-contact
-    @elseif($parent == 'gallery')
+    @elseif($parent == 'gallery') 
         page-header-gallery
     @elseif($parent == 'event')
         page-header-event

@@ -25,9 +25,9 @@
 </head>
 
 <body>
-@include('navbar')
+<!-- @include('new-navbar') -->
 
-@include('header', ['title' => 'Cursos'])
+<!-- @include('header', ['title' => 'Cursos']) -->
 
 <!-- About Start -->
 <div class="container-fluid py-5">

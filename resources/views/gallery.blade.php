@@ -18,6 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/navbar-scroll.js') }}"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
@@ -26,7 +27,8 @@
 
 <body>
 
-@include('navbar')
+
+@include('navbar') 
 
 @include('header', ['parent' => 'gallery'])
 
@@ -102,7 +104,7 @@
 
 
 <!-- Videos -->
-<!--<section class="mt-5">
+<!-- <section class="mt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 mb-3">
@@ -125,7 +127,7 @@
             </div>
         </div>
     </div>
-</section>-->
+</section>  -->
 <!-- End Videos -->
 
 <!-- End Gallery -->
