@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         let currentScroll = window.scrollY || document.documentElement.scrollTop;
 
-        if (currentScroll > 1 && this.window.innerWidth > 480) {
+        if (currentScroll > 1 && this.window.innerWidth > 768) {
 
             $('.header').addClass("scroll");
 
@@ -22,10 +22,3 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-const button = document.querySelector('.button')
-const nav = document.querySelector('.nav')
-
-button.addEventListener('click', () => {
-    nav.classList.toggle('activo')
-})

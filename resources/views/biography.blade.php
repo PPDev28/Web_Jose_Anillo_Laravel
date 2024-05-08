@@ -14,6 +14,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <script src="{{ asset('js/navbar-scroll.js') }}"></script>
+    <script src="{{ asset('js/menu-toggle.js') }}"></script>
 
     <!-- Scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -24,7 +25,7 @@
 
 </head>
 <body>
-@include('navbar')
+@include('new-navbar')
 
 @include('header', ['parent' => 'biography'])
 
