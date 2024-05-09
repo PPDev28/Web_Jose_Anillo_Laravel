@@ -29,7 +29,7 @@
 <body>
 
 
-@include('new-navbar') 
+@include('es/new-navbar')
 
 @include('header', ['parent' => 'gallery'])
 

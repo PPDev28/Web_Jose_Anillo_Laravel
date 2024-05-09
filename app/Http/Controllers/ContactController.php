@@ -6,6 +6,6 @@ class ContactController
 {
     public function index()
     {
-        return view('contact');
+        return view('es/contact');
     }
 }

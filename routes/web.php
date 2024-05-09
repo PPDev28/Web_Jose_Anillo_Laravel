@@ -10,9 +10,11 @@ use App\Http\Controllers\EmailController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\en\WelcomeController as EnWelcomeController;
+use App\Http\Controllers\en\BiographyController as EnBiographyController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('es/welcome');
 })->name('welcome');
 
 Route::get('/courses', [CourseController::class, 'index'])->name('course.index');
@@ -26,3 +28,6 @@ Route::get('/event', [EventController::class, 'index'])->name('event.index');
 Route::post('/send-email', [EmailController::class, 'index'])->name('email.index');
 
 Route::get('lang/{lang}', [LanguageController::class, 'swap'])->name('lang.swap');
+
+Route::get('/en/welcome', [EnWelcomeController::class, 'index'])->name('welcome.index.en');
+Route::get('/en/biography', [EnBiographyController::class, 'index'])->name('biography.index.en');

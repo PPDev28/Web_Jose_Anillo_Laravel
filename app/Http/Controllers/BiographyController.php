@@ -7,6 +7,6 @@ class BiographyController extends Controller
 {
     public function index()
     {
-        return view('biography');
+        return view('es/biography');
     }
 }
