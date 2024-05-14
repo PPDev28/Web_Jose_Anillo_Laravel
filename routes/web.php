@@ -12,6 +12,10 @@ use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\en\WelcomeController as EnWelcomeController;
 use App\Http\Controllers\en\BiographyController as EnBiographyController;
+use App\Http\Controllers\en\ContactController as EnContactController;
+use App\Http\Controllers\en\GalleryController as EnGalleryController;
+use App\Http\Controllers\en\EventController as EnEventController;
+use App\Http\Controllers\en\ShopController as EnShopController;
 
 Route::get('/', function () {
     return view('es/welcome');
@@ -31,3 +35,7 @@ Route::get('lang/{lang}', [LanguageController::class, 'swap'])->name('lang.swap'
 
 Route::get('/en/welcome', [EnWelcomeController::class, 'index'])->name('welcome.index.en');
 Route::get('/en/biography', [EnBiographyController::class, 'index'])->name('biography.index.en');
+Route::get('/en/contact', [EnContactController::class, 'index'])->name('contact.index.en');
+Route::get('/en/gallery', [EnGalleryController::class, 'index'])->name('gallery.index.en');
+Route::get('/en/event', [EnEventController::class, 'index'])->name('event.index.en');
+Route::get('/en/shop', [EnShopController::class, 'index'])->name('shop.index.en');

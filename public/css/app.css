@@ -11565,3 +11565,55 @@ body {
     }
 
 }
+
+/* Estilos para el contenedor del switch */
+.custom-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Estilos para el checkbox */
+.custom-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Estilos para el control deslizante (slider) */
+.custom-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+/* Estilos para la parte redondeada del switch */
+.custom-slider.custom-round {
+    border-radius: 34px;
+}
+
+/* Estilos para cuando el checkbox está marcado */
+.custom-slider.custom-round:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+/* Estilos para cuando el checkbox está marcado y el control deslizante se mueve */
+input:checked + .custom-slider.custom-round:before {
+    transform: translateX(26px);
+}
+

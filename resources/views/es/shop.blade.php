@@ -22,7 +22,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
-
 </head>
 
 <body>
@@ -35,22 +34,6 @@
     <div class="container">
         <div class="row">
             <p><b>Próximamente...</b></p>
-
-            @if(config('locale.status') && count(config('locale.languages')) > 1)
-                <!--<div>
-                    @foreach (array_keys(config('locale.languages')) as $lang)
-                        @if ($lang != App::getLocale())
-                            <a href="{!! route('lang.swap', $lang) !!}">
-                                {!! $lang !!} <small>{!! $lang !!}</small>
-                                <h4> {!! trans('messages.welcome') !!} </h4>
-                            </a>
-                        @endif
-                    @endforeach
-                </div>-->
-
-            @endif
-
-
         </div>
     </div>
 </div>

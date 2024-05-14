@@ -23,7 +23,6 @@
 
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
-
 </head>
 
 <body>

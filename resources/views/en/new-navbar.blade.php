@@ -1,7 +1,7 @@
 <header class="header">
 
     <h1 class="h1">
-        <a href="{{ route('welcome') }}" class="a-custom">
+        <a href="{{ route('welcome.index.en') }}" class="a-custom">
             <img src="{{asset('img/logoJoseAnilloBlanco.png')}}" width="100" height="100" alt="José Anillo">
         </a>
     </h1>
@@ -17,10 +17,10 @@
         <ul class="ul">
             <li class="li"><a href="{{ route('welcome.index.en') }}" class=" a-custom {{ Route::currentRouteName() === 'welcome.index.en' ? 'active' : '' }}">HOME</a></li>
             <li class="li"><a href="{{ route('biography.index.en') }}" class="a-custom {{ Route::currentRouteName() === 'biography.index.en' ? 'active' : '' }}">BIOGRAPHY</a></li>
-            <li class="li"><a href="{{ route('event.index') }}" class="a-custom {{ Route::currentRouteName() === 'event.index' ? 'active' : '' }}">EVENTS</a></li>
-            <li class="li"><a href="{{ route('shop.index') }}" class="a-custom {{ Route::currentRouteName() === 'shop.index' ? 'active' : '' }}">SHOP</a></li>
-            <li class="li"><a href="{{ route('gallery.index') }}" class="a-custom {{ Route::currentRouteName() === 'gallery.index' ? 'active' : '' }}">GALLERY</a></li>
-            <li class="li"><a href="{{ route('contact.index') }}" class="a-custom {{ Route::currentRouteName() === 'contact.index' ? 'active' : '' }}">CONTACT</a></li>
+            <li class="li"><a href="{{ route('event.index.en') }}" class="a-custom {{ Route::currentRouteName() === 'event.index.en' ? 'active' : '' }}">EVENTS</a></li>
+            <li class="li"><a href="{{ route('shop.index.en') }}" class="a-custom {{ Route::currentRouteName() === 'shop.index.en' ? 'active' : '' }}">SHOP</a></li>
+            <li class="li"><a href="{{ route('gallery.index.en') }}" class="a-custom {{ Route::currentRouteName() === 'gallery.index.en' ? 'active' : '' }}">GALLERY</a></li>
+            <li class="li"><a href="{{ route('contact.index.en') }}" class="a-custom {{ Route::currentRouteName() === 'contact.index.en' ? 'active' : '' }}">CONTACT</a></li>
         </ul>
     </nav>
 

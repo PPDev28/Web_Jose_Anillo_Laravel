@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Eventos | Jose Anillo</title>
+    <title>Events | Jose Anillo</title>
     <link rel="icon" href="{{ asset('img/Favicon_JA.png') }}" type="image/png">
 
     <!-- Fonts -->
@@ -22,9 +22,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
+
 </head>
 <body>
-@include('es/new-navbar')
+@include('en/new-navbar')
 
 @include('header', ['parent' => 'event'])
 
@@ -32,20 +33,20 @@
     <div class="event">
         <img src="{{ asset('img/little_event_1.webp') }}" alt="Evento 1">
         <div class="event-info">
-            <h2>2 de Mayo de 2024, Palomares del Río (Sevilla)</h2>
-            <p>Festival Guirijondo con Carmela Riqueni</p>
-            <h2>18 de Mayo de 2024, Hospitalet (Barcelona)</h2>
-            <p>Máster Class en Tertulia Flamenca de Hospitalet</p>
+            <h2>May 2, 2024, Palomares del Río (Sevilla)</h2>
+            <p>Guirijondo Festival with Carmela Riqueni</p>
+            <h2>May 18, 2024, Hospitalet (Barcelona)</h2>
+            <p>Master Class in Flamenco Tertulia de Hospitalet</p>
         </div>
     </div>
 
     <div class="event">
         <img src="{{ asset('img/little_event_2.webp') }}" alt="Evento 2">
         <div class="event-info">
-            <h2>19 de Mayo de 2024, Hospitalet (Barcelona)</h2>
-            <p>Recital de Cante en Tertulia Flamenca de Hospitalet</p>
-            <h2>25 de Mayo de 2024, Cerro del Águila (Sevilla)</h2>
-            <p>Recital de Cante en Peña Flamenca del Cerro del Águila</p>
+            <h2>May 19, 2024, Hospitalet (Barcelona)</h2>
+            <p>Singing Recital at Tertulia Flamenca de Hospitalet</p>
+            <h2>May 25, 2024, Cerro del Águila (Sevilla)</h2>
+            <p>Singing Recital at Peña Flamenca del Cerro del Águila</p>
         </div>
     </div>
 </div>

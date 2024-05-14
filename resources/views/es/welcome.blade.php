@@ -24,7 +24,6 @@
         <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
 
         <script src="{{asset('js/home-transition.js')}}"></script>
-
     </head>
     <body>
     @include('es/new-navbar')

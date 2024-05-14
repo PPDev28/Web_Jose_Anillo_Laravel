@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Biografía | Jose Anillo</title>
+    <title>Biography | Jose Anillo</title>
     <link rel="icon" href="{{ asset('img/Favicon_JA.png') }}" type="image/png">
 
     <!-- Fonts -->
@@ -22,7 +22,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="{{ asset('fontawesome-free-6.5.1-web/css/all.min.css') }}">
-
 </head>
 <body>
 @include('en/new-navbar')

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Inicio | Jose Anillo</title>
+        <title>Welcome | Jose Anillo</title>
         <link rel="icon" href="{{ asset('img/Favicon_JA.png') }}" type="image/png">
 
         <!-- Fonts -->
