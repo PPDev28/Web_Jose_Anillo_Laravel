@@ -35,7 +35,7 @@
         <div>
             <div>
                 <h1 style="color: white">Mi Historia</h1>
-                <p>
+                <p style="text-align: justify">
                     José Anillo, nació en Cádiz, el 9 de julio de 1978.
                     Sus primeros pasos artísticos fueron cantando en los cuadros de numerosas academias de
                     baile de Cádiz, San Fernando, y Chiclana. Comenzó su carrera profesional formando parte de la

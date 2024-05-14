@@ -10862,37 +10862,42 @@ h6,
 }
 
 .page-header {
-    background: url(../img/jose1.png) no-repeat top;
+    background: url(../img/jose1.png) no-repeat wheat;
     background-size: cover;
 }
 
 .page-header-bio {
-    background: url(../img/biography.webp) no-repeat top;
+    background: url(../img/biography.webp) no-repeat wheat;
     background-size: cover;
+    background-position: 50% 20%;
     height: 700px;
 }
 
 .page-header-contact {
-    background: url(../img/contact.webp) no-repeat top;
+    background: url(../img/contact.webp) no-repeat wheat;
     background-size: cover;
+    background-position: 50% 10%;
     height: 700px;
 }
 
 .page-header-event {
-    background: url(../img/events.webp) no-repeat top;
+    background: url(../img/events.webp) no-repeat wheat;
     background-size: cover;
+    background-position: 50% 20%;
     height: 900px;
 }
 
 .page-header-gallery {
-    background: url(../img/gallery_main.webp) no-repeat top;
+    background: url(../img/gallery_main.webp) no-repeat wheat;
     background-size: cover;
+    background-position: 50% 60%;
     height: 900px;
 }
 
 .page-header-shop {
-    background: url(../img/home_3.webp) no-repeat top;
+    background: url(../img/home_3.webp) no-repeat wheat;
     background-size: cover;
+    background-position: 50% 20%;
     height: 700px;
 }
 

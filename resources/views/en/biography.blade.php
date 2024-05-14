@@ -35,7 +35,7 @@
         <div>
             <div>
                 <h1 style="color: white">My History</h1>
-                <p>
+                <p style="text-align: justify">
                     José Anillo, was born in Cádiz, on July 9, 1978. His first artistic steps were singing in the scenes of numerous dance academies in Cádiz, San Fernando, and Chiclana. He began his professional career as part of Manuela Carrasco's company, debuting at the Teatro de la Villa in Madrid and the Gran Teatro Falla in Cádiz.
                     At the age of 18, he continued his career in various companies such as, Cristina Hoyos, Belén Maya, Joaquín Grillo, Israel Galván, Javier Latorre, and Rafael Campallo, among others.
                     He was selected to be part of the playbill, “Los 12 Nombres para Empezar el Siglo XXI”, of the Granada Music and Dance Festival. In August 2003, he won the “Premio Nacional de Cantes por Alegrías de Cádiz” in the edition dedicated to Manolo Vargas. In 2011, he won the “Disco Revelación” award with “Los Balcones de Mi Sueño”, and in 2016, he won the “Premio Nacional de Córdoba Absoluto”. This same year, he takes the award for “Cantes Bajos Andaluces” por Alegrías de Cádiz from the “Concurso de Las Minas”.
