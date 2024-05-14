@@ -48,11 +48,10 @@
                     <b>Empresa</b>:  CEB Productions, LLC
                 </div>
                 <div class="find-widget">
-                    <b>Email</b>: CEBproductions@nicamor.org
+                    <b>Email</b>: contacto@joseanillo.com
                 </div>
                 <div class="find-widget">
                     <b>Teléfono José Anillo</b>:  (+34) 611 017 863 <br>
-                    <b>Teléfono CEB Productions, LLC</b>: +1 (510) 260 5635
                 </div>
             </div>
             <!-- contact form -->
