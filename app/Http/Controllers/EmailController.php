@@ -17,9 +17,9 @@ class EmailController
         $email = $request->request->get('email');
         $msg = $request->request->get('message');
 
-        $to = 'contacto@joseanillo.com';
+        $msg .=  PHP_EOL . "El correo a responder es $email";
 
-        Mail::to($to)->send(new MailSender($name, $subject, $email, $msg));
+        Mail::to(env('EMAIL_TO'))->send(new MailSender($name, $subject, env('MAIL_FROM_ADDRESS'), $msg));
 
         $request->session()->flash('success', '¡El correo electrónico se ha enviado correctamente!');
 
