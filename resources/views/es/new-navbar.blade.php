@@ -2,7 +2,7 @@
 
     <h1 class="h1">
         <a href="{{ route('welcome') }}" class="a-custom">
-            <img src="{{asset('img/logoJoseAnilloBlanco.png')}}" width="100" height="100" alt="José Anillo">
+            <img src="{{asset('img/logoJoseAnilloBlanco.png')}}" class="img" alt="José Anillo">
         </a>
     </h1>
 

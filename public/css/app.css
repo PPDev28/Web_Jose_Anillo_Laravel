@@ -10862,40 +10862,41 @@ h6,
 }
 
 .page-header {
-    background: url(../img/jose1.png) no-repeat wheat;
+    background: url(../img/jose1.png) no-repeat;
     background-size: cover;
+    margin-top: 10%;
 }
 
 .page-header-bio {
-    background: url(../img/biography.webp) no-repeat wheat;
+    background: url(../img/biography.webp) no-repeat;
     background-size: cover;
     background-position: 50% 20%;
     height: 700px;
 }
 
 .page-header-contact {
-    background: url(../img/contact.webp) no-repeat wheat;
+    background: url(../img/contact.webp) no-repeat;
     background-size: cover;
     background-position: 50% 10%;
     height: 700px;
 }
 
 .page-header-event {
-    background: url(../img/events.webp) no-repeat wheat;
+    background: url(../img/events.webp) no-repeat;
     background-size: cover;
     background-position: 50% 20%;
     height: 900px;
 }
 
 .page-header-gallery {
-    background: url(../img/gallery_main.webp) no-repeat wheat;
+    background: url(../img/gallery_main.webp) no-repeat;
     background-size: cover;
     background-position: 50% 60%;
     height: 900px;
 }
 
 .page-header-shop {
-    background: url(../img/home_3.webp) no-repeat wheat;
+    background: url(../img/home_3.webp) no-repeat;
     background-size: cover;
     background-position: 50% 20%;
     height: 700px;
@@ -11062,6 +11063,7 @@ h6,
     font-size: 15px;
     line-height: 24px;
     color: red;
+    margin-top: 60px;
 }
 
 .site-footer hr {
@@ -11478,6 +11480,10 @@ body {
     height: 110px;
 }
 
+.header .img{
+    width: 250px;
+    height: auto;
+}
 
 .header .a-custom {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11512,9 +11518,11 @@ body {
 }
 
 @media screen and (max-width:768px) {
+
     .header {
         z-index: 999;
-        position: fixed;
+        position: sticky;
+        top: 0;
         height: auto;
         width: 100%;
         background-color: black;
@@ -11564,6 +11572,19 @@ body {
         font-size: 22px;
     }
 
+}
+
+@media screen and (max-width:390px) {
+
+    .header .img{
+        width: 220px;
+        height: auto;
+    }
+
+    .header .new-navbar.activo {
+        height: 60vh;
+        pointer-events: auto;
+    }
 }
 
 /* Estilos para el contenedor del switch */
@@ -11617,3 +11638,16 @@ input:checked + .custom-slider.custom-round:before {
     transform: translateX(26px);
 }
 
+.custom-language-button {
+    background-color: black; /* Relleno rojo */
+    color: black; /* Letras negras */
+    border: none; /* Sin borde */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+.custom-language-button:hover {
+    background-color: darkred; /* Color de fondo al pasar el cursor */
+}
