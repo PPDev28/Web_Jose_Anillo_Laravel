@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-3 d-flex justify-content-end">
                 <div class="custom-language-button">
-                    @if(str_contains(request()->path(), 'en'))
+                    @if(str_contains(request()->path(), 'en/'))
                     <a class="btn btn-lg btn-link" href="{{ route('welcome') }}">Spanish</a>
                     @else
                     <a class="btn btn-lg btn-link" href="{{ route('welcome.index.en') }}">Inglés</a>
