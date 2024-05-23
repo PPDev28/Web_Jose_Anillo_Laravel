@@ -44,7 +44,7 @@
         <div class="row">
             <!-- Section Titile -->
             <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                <p>Contact José Anillo for more information about courses, hiring, etc.</p>
+                <p>Contact José Anillo for more information about courses, contracts, etc.</p>
                 <div class="find-widget">
                     <b>Company</b>:  CEB Productions, LLC
                 </div>
