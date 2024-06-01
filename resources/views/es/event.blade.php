@@ -46,6 +46,13 @@
             <p>Recital de Cante en Tertulia Flamenca de Hospitalet</p>
             <h2>25 de Mayo de 2024, Cerro del Águila (Sevilla)</h2>
             <p>Recital de Cante en Peña Flamenca del Cerro del Águila</p>
+            <h2><b>Reseñas</b></h2>
+            <p><a
+                    href="https://www.expoflamenco.com/cronicas/jose-anillo-y-los-pellizcos-de-sal-pena-flamenca-cerro-del-aguila/?fbclid=IwZXh0bgNhZW0CMTEAAR3qMnwxAkUIP9mjROsdp0RqG_wDJ8DUbwUxOPr1G2c_JXX2MFCVVuGWJO0_aem_AcYXQmW05WO-WH9N1IYdzbElUCtqOGLozF6S6Yl-u3BMTlKHd8DaI-3K6rWY2eL_0R0IOjc5Sw2R-tWb_rAlE9ox"
+                    target="_blank">
+                    José Anillo y los pellizcos de sal
+                </a>
+            </p>
         </div>
     </div>
 </div>
