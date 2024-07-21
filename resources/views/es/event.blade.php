@@ -32,20 +32,18 @@
     <div class="event">
         <img src="{{ asset('img/little_event_1.webp') }}" alt="Evento 1">
         <div class="event-info">
-            <h2>2 de Mayo de 2024, Palomares del Río (Sevilla)</h2>
-            <p>Festival Guirijondo con Carmela Riqueni</p>
-            <h2>18 de Mayo de 2024, Hospitalet (Barcelona)</h2>
-            <p>Máster Class en Tertulia Flamenca de Hospitalet</p>
+            <h2>12 de Agosto de 2024, Molino del Zaporito (San Fernando, Cádiz)</h2>
+            <p>Con Sara Sánchez</p>
+            <h2>6 de Septiembre de 2024</h2>
+            <p>Lanzamiento de <b>Filosofía</b></p>
         </div>
     </div>
 
     <div class="event">
         <img src="{{ asset('img/little_event_2.webp') }}" alt="Evento 2">
         <div class="event-info">
-            <h2>19 de Mayo de 2024, Hospitalet (Barcelona)</h2>
-            <p>Recital de Cante en Tertulia Flamenca de Hospitalet</p>
-            <h2>25 de Mayo de 2024, Cerro del Águila (Sevilla)</h2>
-            <p>Recital de Cante en Peña Flamenca del Cerro del Águila</p>
+            <h2>20 de Septiembre de 2024, Teatro Juan Bernabé (Lebrija)</h2>
+            <p>Colaboración con Zenet</p>
             <h2><b>Reseñas</b></h2>
             <p><a
                     href="https://www.expoflamenco.com/cronicas/jose-anillo-y-los-pellizcos-de-sal-pena-flamenca-cerro-del-aguila/?fbclid=IwZXh0bgNhZW0CMTEAAR3qMnwxAkUIP9mjROsdp0RqG_wDJ8DUbwUxOPr1G2c_JXX2MFCVVuGWJO0_aem_AcYXQmW05WO-WH9N1IYdzbElUCtqOGLozF6S6Yl-u3BMTlKHd8DaI-3K6rWY2eL_0R0IOjc5Sw2R-tWb_rAlE9ox"
