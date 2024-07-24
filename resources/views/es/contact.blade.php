@@ -51,7 +51,13 @@
                     <b>Email</b>: contacto@joseanillo.com
                 </div>
                 <div class="find-widget">
-                    <b>Teléfono José Anillo</b>:  (+34) 611 017 863 <br>
+                    <b>Departamento de Producción y contratación de artistas</b>: produccion@trafalgarcinema.com
+                </div>
+                <div class="find-widget">
+                    <b>Juan Manuel Roa</b>: +34 674 005 071
+                </div>
+                <div class="find-widget">
+                    <b>David Zamora</b>: +34 675 129 696
                 </div>
             </div>
             <!-- contact form -->
