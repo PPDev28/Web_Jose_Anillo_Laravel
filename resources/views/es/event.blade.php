@@ -32,18 +32,18 @@
     <div class="event">
         <img src="{{ asset('img/little_event_1.webp') }}" alt="Evento 1">
         <div class="event-info">
-            <h2>12 de Agosto de 2024, Molino del Zaporito (San Fernando, Cádiz)</h2>
-            <p>Con Sara Sánchez</p>
-            <h2>6 de Septiembre de 2024</h2>
-            <p>Lanzamiento de <b>Filosofía</b></p>
+            <h2>4 de Octubre de 2024, Otros oles flamencos(Sevilla)</h2>
+            <p>Maestros del baile de Sevilla</p>
+            <h2>13 de Octubre</h2>
+            <p>Con Carmela Riqueni en la plazuela (Sevilla)</p>
         </div>
     </div>
 
     <div class="event">
         <img src="{{ asset('img/little_event_2.webp') }}" alt="Evento 2">
         <div class="event-info">
-            <h2>20 de Septiembre de 2024, Teatro Juan Bernabé (Lebrija)</h2>
-            <p>Colaboración con Zenet</p>
+            <h2>14 al 18 de Octubre</h2>
+            <p>Gira Shangai</p>
             <h2><b>Reseñas</b></h2>
             <p><a
                     href="https://www.expoflamenco.com/cronicas/jose-anillo-y-los-pellizcos-de-sal-pena-flamenca-cerro-del-aguila/?fbclid=IwZXh0bgNhZW0CMTEAAR3qMnwxAkUIP9mjROsdp0RqG_wDJ8DUbwUxOPr1G2c_JXX2MFCVVuGWJO0_aem_AcYXQmW05WO-WH9N1IYdzbElUCtqOGLozF6S6Yl-u3BMTlKHd8DaI-3K6rWY2eL_0R0IOjc5Sw2R-tWb_rAlE9ox"
